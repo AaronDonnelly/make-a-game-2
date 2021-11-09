@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="r|wV_%N|qBv3L=[4}N+|">lives</variable></variables><block type="device_forever" id="-OPKX`VRJ.drjhNcTBWB" x="-188" y="-644"><statement name="HANDLER"><block type="controls_if" id="80~f!*$a4SeYl-_:dNXB"><mutation elseif="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="variables_get" id="PU@]WCtoHf1^iErw*7jI"><field name="VAR" id="r|wV_%N|qBv3L=[4}N+|">lives</field></block></value><statement name="DO0"><block type="device_show_leds" id="BMe(6-$KIGOC0Y{}/vqn"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><value name="IF1"><block type="variables_get" id="-W)NFlQ0[0{[!hK-j.~)"><field name="VAR" id="r|wV_%N|qBv3L=[4}N+|">lives</field></block></value><statement name="DO1"><block type="device_show_leds" id="pATa~YzoxKm~)!ee!Q$s"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement></block></statement></block></xml>
